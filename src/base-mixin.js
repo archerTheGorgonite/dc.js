@@ -50,7 +50,7 @@ dc.baseMixin = function (_chart) {
     var _renderTitle = true;
     var _controlsUseVisibility = false;
 
-    var _transitionDuration = 150;
+    var _transitionDuration = 225;
 
     var _transitionDelay = 0;
 
