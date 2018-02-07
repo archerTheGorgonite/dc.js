@@ -1076,7 +1076,6 @@ dc.baseMixin = function (_chart) {
             dimension.filterExact(filters[0]);
         } else if (filters.length === 1 && filters[0].filterType === 'RangedFilter') {
             // single range-based filter
-            console.log('yolo');
             if ((filters[0][1] || filters[0][1] ===0) && typeof(filters[0][1]) === "number") filters[0][1] += 0.000000001;
             dimension.filterRange(filters[0]);
         } else {
