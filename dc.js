@@ -1044,7 +1044,7 @@ dc.baseMixin = function (_chart) {
     var _renderTitle = true;
     var _controlsUseVisibility = false;
 
-    var _transitionDuration = 300;
+    var _transitionDuration = 250;
 
     var _transitionDelay = 0;
 
